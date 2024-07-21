@@ -4,35 +4,62 @@
 }
 
 body{
-  font-family: 'Courier New', Courier, monospace;
+  background-color:#0f1612; 
+  background-size: cover;
+  background-position: center;
 }
+
+.back-video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+  .back-video{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio:16/9){
+  .back-video{
+    width: auto;
+    height: 100%;
+  }
+}
+
 nav{
   position: fixed;
   top: 0;
   left: 0;
-  
-  background: red;
-  height: 200px;
+  background: linear-gradient(rgb(32, 178, 197), rgb(217, 241, 217), blue);
+  height: 100px;
   width: 100%;
-  text-align: center;
 }
+
 
 ul{
 display: flex;
-line-height: 80px;
-margin: 0 5px;
+line-height: 100px;
 list-style: none;
-text-align: center;
-margin-left: 100px;
+margin-left: 20px;
 font-size: 18px;
-justify-content: space-between;
+justify-content: space-evenly;
 text-transform: capitalize;
 color: blue;
+font-weight: bolder;
 }
 
+a{
+  text-decoration: overline;
+}
 
-
-
+a:hover{
+  color: gold;
+  border-radius: 3px;
+}
 
 
 
@@ -44,7 +71,6 @@ body {
     height: 100vh;
      /* height: 100vh -This ensures that the body element takes up the entire height of the browser window, which is useful for vertically centering content within the page. */
     margin: 0;
-    background: linear-gradient(rgb(32, 178, 197), rgb(217, 241, 217), blue);
   }
   
   .spinner {
