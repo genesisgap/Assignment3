@@ -87,7 +87,7 @@ body {
 
 p {
     font-size: 30px;
-    color: rgb(43, 12, 71);
+    color: white;
     font-style: italic;
     font-weight: bold;
 
@@ -107,11 +107,16 @@ p {
   .Loading {
     width: 200px;
     height: 200px;
-    border: 20px solid rgba(252, 245, 245, 0.295);
-    border-top: 20px solid #0ab34b;
+    border: 20px solid rgb(252, 245, 245);
+    border-top: 20px solid #0ab34b46;
     border-radius: 100%;
-    animation: Loading 1.5s linear infinite;
+    animation: Loading 4.5s linear infinite;
     margin: 40px;
+  }
+
+  img{
+    width: 200px;
+    border-radius: 70px;
     
   }
   
