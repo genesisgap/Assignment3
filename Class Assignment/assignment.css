@@ -45,7 +45,8 @@ p {
     border: 20px solid rgba(252, 245, 245, 0.295);
     border-top: 20px solid #0ab34b;
     border-radius: 100%;
-    animation: Loading 1.5s linear infinite;
+    animation: Loading 1.3s alternate-reverse infinite;
+    border-color: purple transparent white transparent;
     margin: 40px;
     
   }
@@ -85,10 +86,11 @@ p {
     width: 150px;
     height: 150px;
     border: 15px solid rgba(248, 248, 245, 0.349);
-    border-top: 15px solid #041f0e;
-    border-bottom: 15px solid rgb(214, 193, 7);
+    /* border-top: 15px solid #041f0e;
+    border-bottom: 15px solid rgb(214, 193, 7); */
     border-radius: 75%;
-    animation: spinning 3s linear infinite;
+    animation: spinning 1.3s linear infinite;
+    border-color: black transparent yellow transparent;
     
   }
   
