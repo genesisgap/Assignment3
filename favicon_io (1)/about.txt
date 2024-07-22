@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Kalnia Glaze
+- Font Author: Copyright 2022 The Kalnia Glaze Project Authors (https://github.com/fridamedrano/Kalnia-Glaze)
+- Font Source: https://fonts.gstatic.com/s/kalniaglaze/v1/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL6nnZKfhpVTvN.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
