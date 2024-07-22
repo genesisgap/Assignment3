@@ -24,8 +24,10 @@ body {
     height: 50px;
     border: 15px solid rgba(0, 0, 0, 0.1);
     border-top-color: #007bff;
+    border-bottom-color: #ffa600;
     border-radius: 50%;
     animation: spin 2s alternate infinite;
+    border-color: #007bff transparent #ffa600 transparent;
     padding: 20px;
     margin: 20px;
 }
@@ -39,6 +41,8 @@ body {
     padding: 20px;
     margin: 20px;
 }
+
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -48,3 +52,4 @@ body {
         transform: rotate(360deg);
     }
 }
+
